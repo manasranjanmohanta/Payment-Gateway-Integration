@@ -1,0 +1,79 @@
+.body_container {
+    margin: 0;
+    padding: 0;
+
+}
+
+.head_container {
+    margin: 0% 30%;
+    width: 530px;
+    height: 300px;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    /* border: 2px solid; */
+    background-color: blue;
+    border-radius: 10px;
+    padding-bottom: 8px;
+}
+
+.about_image_container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.about_image_container img {
+    width: 950px;
+    margin-top : 50px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:20px;
+    
+}
+.head_container {
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+.header_about_section {
+    position: relative;
+    text-align: center;
+}
+h3 {
+    position: absolute;
+    left: 43%;
+    font-size: 35px;
+    text-decoration: underline; 
+}
+.about_section {
+    margin-top: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* text-align: center; */
+}
+.paragraph_container {
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: hsl(228, 4%, 28%);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 4vh;
+}
+.work_section_heading {
+    text-align: center;
+    text-decoration: underline;
+}
+h3 {
+    
+    margin-bottom: 10px;
+}
+.paragraph_section p {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 4vh;
+}
